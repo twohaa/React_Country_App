@@ -1,0 +1,10 @@
+.input {
+  padding: 0.6rem;
+  border-radius: 0.6rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.input:focus {
+  background-color: bisque;
+}
