@@ -47,8 +47,8 @@ export default function App() {
   };
 
   return (
-    <>
-      <h1>Country App</h1>
+    <div className="app">
+      <h1 style={{ color: "#34495e" }}>ToxiCoder Country App</h1>
       <Search onSearch={handleSearch} />
       {isLoading && <h2>Loading...</h2>}
       {error && <h2>{error.message}</h2>}
@@ -58,6 +58,6 @@ export default function App() {
           onRemoveCountry={handleRemoveCountry}
         />
       )}
-    </>
+    </div>
   );
 }
